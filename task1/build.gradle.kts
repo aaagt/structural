@@ -3,8 +3,11 @@ plugins {
 }
 
 
+group = "${rootProject.group}.calculator"
+
+
 application {
-    mainClass.set("Main")
+    mainClass.set("${group}.Main")
 }
 
 

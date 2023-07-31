@@ -1,3 +1,3 @@
-# name
+# Структурные шаблоны. Adapter, Proxy, Decorator, Facade, Flyweight
 
-- [task1](./task1) - task1 name
+- [task1](./task1) - Калькулятор

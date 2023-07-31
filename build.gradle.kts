@@ -2,14 +2,18 @@ plugins {
     id("java")
 }
 
+
+group = "aaagt.structural"
+
+
 allprojects {
     repositories {
         mavenCentral()
     }
 }
 
+
 subprojects {
-    group = "org.example"
     version = "1.0-SNAPSHOT"
 
     tasks.withType<JavaCompile>().configureEach {
